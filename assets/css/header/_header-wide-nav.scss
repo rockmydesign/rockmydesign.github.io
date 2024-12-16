@@ -1,0 +1,16 @@
+
+.logo_box .item_box{ display: none;}
+
+.navbar_menu .container{ justify-content: space-between;}
+
+.search_bar_box {
+    max-width: 400px; margin-right: auto;
+}
+.search_bar {
+    border-radius: 40px;
+    padding: 0 8px;
+}
+.search_bar .btn {
+    width: 40px;
+    background-color: transparent !important;
+}

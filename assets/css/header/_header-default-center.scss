@@ -1,0 +1,19 @@
+
+.logo_box{ order: 3; flex: 1;}
+.logo_box .item_box{ display: none;}
+.navbar_menu{ width: auto; background-color: transparent; padding: 0;}
+.navbar_menu .container{ justify-content: flex-start;}
+.navbar_menu .nav-link { color: #000;}
+
+
+.search_bar_box {
+    max-width: 300px; margin: 0; flex: unset;
+}
+.search_bar { display: none;}
+.search_icon_btn{ display: block; order: 1;}
+.search_icon_btn img{ filter: invert(1);}
+
+
+.user_cart_box{ order: 3; flex: 1; justify-content: flex-end;}
+.user_cart_box .nav-link span{ display: none;}
+.cart_count{ margin-left: -10px;}

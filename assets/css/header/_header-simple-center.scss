@@ -1,0 +1,14 @@
+
+.logo_box{ order: 2;}
+.logo_box .item_box{ display: none;}
+
+
+.search_bar_box {max-width: 300px; flex: unset;  order: 3;}
+.search_bar { display: none;}
+.search_icon_btn{ display: block; background-color: transparent !important; }
+
+
+.toggle_icon_btn{ order: 1; background-color: transparent;}
+.toggle_icon_btn img{ filter: none; }
+
+.navbar-expand-xl .navbar_menu{ display: none !important;}

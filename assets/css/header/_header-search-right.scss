@@ -1,0 +1,18 @@
+
+.logo_box{ flex: 1; max-width: 300px;}
+.logo_box .item_box{ display: none;}
+.navbar_menu{ order: 2; width: auto; background-color: transparent;}
+.navbar_menu .nav-link { color: #000;}
+
+
+.search_bar_box {
+    max-width: 300px; order: 3;
+}
+.search_bar {
+    border-radius: 40px;
+    padding: 0 8px;
+}
+.search_bar .btn {
+    width: 40px;
+    background-color: transparent !important;
+}

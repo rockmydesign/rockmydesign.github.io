@@ -1,0 +1,18 @@
+
+.header_btn_group .btn {
+    background-color: transparent;
+    border-color: #ddd;
+    color: #000;
+}
+.header_btn_group .btn img {
+    filter: none;
+}
+.logo_box .item_box{ display: none;}
+.navbar_menu .search_bar_box {
+    display: block;
+}
+.navbar_menu .container{ justify-content: space-between;}
+.search_bar_box{ max-width: 300px;}
+.search_bar{border-color: rgba(255, 255, 255, 0.4);}
+.search_bar .btn{ width: 36px; height: 36px;}
+.search_bar .btn img{ filter: invert(1);}

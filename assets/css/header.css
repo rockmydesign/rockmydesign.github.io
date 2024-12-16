@@ -1,0 +1,96 @@
+
+
+
+
+
+.mega_menu_link{ position: static;}
+.mega_menu {
+    position: absolute;
+    background-color: #fff !important;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    max-width: calc(100% - 30px);
+    width: auto;
+    align-items: flex-start;
+}
+
+.mega_menu .img_box{ width: 100%; max-width: 300px;}
+.mega_menu.mega_menu_open.show{ display: flex; gap: 20px; margin: 0 15px;}
+
+.navbar_menu a.dropdown-toggle { display: flex; align-items: center; justify-content: space-between;}
+
+.navbar_menu .mega_menu .link_box {
+    max-height: 70vh;
+    overflow-y: auto;
+    gap: 10px 18px;
+    flex: 1; min-width: 150px;
+}
+.mega_menu .link_box .position-auto-box { float: left; margin: 8px;}
+.mega_menu .dropdown-toggle .main_category {text-decoration: underline; font-weight: bold; display: inline-block;}
+.my_navbar .navbar-collapse .show>.dropdown-menu { display: flex !important;}
+
+
+
+@media only screen and (min-width: 1199.98px) {
+   
+    .my_navbar .navbar_menu .mega_menu_link:hover div.mega_menu {
+        display: flex !important;
+    }
+
+    .mega_menu .link_box{ display:block;}
+    .link_box .position-auto-box{ float: left; margin: 8px; }
+    .link_box .position-auto-box > a{ display: block; }
+
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .my_navbar .mega_menu_link { position: relative !important;}
+    .menu_link > a { border-top: 1px solid #ccc;}
+}
+
+@media only screen and (min-width: 991.98px) {
+
+    .mobile_view_dropdown {
+        position: static !important;
+        display: block;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 10px 0 0;
+        min-width:130px;
+    }
+
+    .mega_menu .dropdown-toggle::after{ display:none; }
+    
+}
+
+@media only screen and (max-width: 991.98px) {
+    .mega_menu .link_box { display: flex;  flex-direction: column; margin: 0 auto 0 0;}
+    .mega_menu .link_box .position-auto-box { border: 1px solid #666; margin: 0;  padding: 8px;}
+    .mobile_view_dropdown {
+        padding: 10px !important;
+        margin: 10px 0 !important;
+        position: relative !important;
+        top: 0;
+        border: 1px solid #ddd !important;
+    }
+    .mobile_view_dropdown:before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #333;
+        position: absolute;
+        top: -8px;
+        left: 30px;
+    }
+
+    .mega_menu .dropdown-toggle .main_category {text-decoration: none;}
+
+
+    .img_box{ display: none;}
+
+
+}

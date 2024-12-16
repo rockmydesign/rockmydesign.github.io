@@ -1,0 +1,64 @@
+
+
+/* Footer Section */
+footer{ 
+    color: #000; background-color: $secondary_color;
+    b{ font-weight: 600;}
+    .form_subcriber{ 
+        display: block; margin-bottom: 20px;
+        .form_input{ 
+            margin-bottom: 20px;
+            input{ padding: 6px 15px 6px 50px;}
+        }
+    }
+}
+
+.footer_title {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: $primary_color;
+}
+
+.footer_links{ 
+    margin-bottom: 30px;
+    li{ 
+        margin-bottom: 10px; transition: all 0.3s ease-in-out; position: relative; 
+        &:last-child{ margin-bottom: 0;}
+        a{ position: relative; padding-bottom: 5px;}
+        &:hover{ 
+            padding-left: 10px;
+            a{ color: $primary_color;}
+        }
+    }
+}
+
+
+footer .icon_box{ width: 20px; height: 20px; margin-top: 2px; color: $primary_color; font-size: 20px;}
+.address_info { flex: 1;}
+
+
+
+.copyriight{  
+    border-top: 1px solid #E5E5E5; padding: 8px 15px; margin-top: 50px; text-align: center; font-size: 15px; 
+    p{ margin: 0; text-align: center;}
+    a{ text-decoration: underline;}
+}
+
+
+@media only screen and (min-width: 767.98px) {
+    footer .dropdown-menu{ display: block; position: relative !important; padding: 0; background-color: transparent; border: none; transform: none !important; }
+    footer .dropdown-toggle::after{ display: none;}
+}
+
+
+@media only screen and (max-width: 767px) {
+    footer{ padding-top: 50px;}
+    .footer_title{ display: flex; justify-content: space-between; border-bottom: 1px solid #E5E5E5;}
+    footer .dropdown-menu{  position: relative !important; transform: none !important;padding: 15px; margin-bottom: 10px !important;border: none;}
+    .copyriight{ margin-top: 30px;}
+
+}
